@@ -1,0 +1,346 @@
+
+    
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    margin: auto;
+    width: 375px;
+    background: cadetblue;
+}
+
+nav {
+    background-color: #fff;
+    box-shadow: 0 0 4px black;
+    width: 375px;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+
+nav .header {
+    background: #fff;
+    box-shadow: 0 0 4px black;
+    width: 375px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .header h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(31, 31, 241);
+    margin-left: 10px;
+}
+
+nav .header .img {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+nav .header .img a {
+    background: #cccccc;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    border-radius: 50px;
+}
+
+nav .header .img img {
+    width: 18px;
+    margin: 6px
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 20px;
+}
+
+nav .navbar img {
+    width:  25px;
+    transition: 0.5 ease;
+}
+
+nav .navbar img:hover {
+    transform: scale(1.3);
+    filter: blur(0.5px);
+}
+
+
+.status {
+    display: flex;
+    background: #cccccc;
+    box-shadow: 0 0 4px black;
+    z-index: 9;
+    width: 375px;
+    margin-top: 50px;
+    overflow-x: scroll;
+}
+
+.status .content {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status .content .bulat {
+    width:70px;
+    height: 70px;
+    border-radius: 100%;
+    background: #fff;
+    border: 3px solid ;
+    margin: 0px 15px 0px 0px;
+}
+
+section {
+    background: #fff;
+    box-shadow: black;
+    width: 375px;
+}
+
+section .profil {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 5px 10px;
+}
+
+section .profil .bulat {
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    border: 3px solid ;
+    margin: 0px 15px 0px 0px;
+}
+
+section .profil h4 {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-left: -8px;
+    margin-top: -10px;
+}
+
+section p {
+    margin-top: -25px;
+    margin-left: 60px;
+    font-family: sans-serif;
+    font-size: 12px;
+    display: flex;
+}
+
+section p img {
+    width: 13px;
+    margin-left: 10px;
+}
+
+section .poto {
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    
+}
+
+section .comen {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    box-shadow: 0 4px 1px #cccccc;
+}
+
+section .comen img {
+    width: 20px;
+    border-radius: 50px;
+    padding: 8px 40px;
+    background: #cccccc;
+    margin-top: 5px;
+}
+
+
+.open {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 30px;
+   display: none;
+   position: fixed;
+   backdrop-filter: blur(5px);
+}
+
+.open .img {
+    width: 375px;
+    box-shadow: 1px 1px 10px black;
+    margin-top: 140px;
+}
+
+.open .close {
+    position: absolute;
+    top: 145px;
+    right: 10px;
+    width: 30px;
+}
+
+/* Bagian Teman */
+/* Bagian Teman */
+
+/* Bagian Pesan */
+/* Bagian Pesan */
+
+/* Bagian Keranjang */
+.nav-keranjang {
+    position: fixed;
+    top: 0;
+    width: 375px;
+    background-color: #fff;
+    box-shadow: 0 0 5px black;
+}
+
+.nav-keranjang .content {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-keranjang h1 {
+    color: rgb(31, 31, 241);
+    padding: 0px 45px 0px 0px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.nav-keranjang input {
+    border: none;
+    background: #cccccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nav-keranjang input:hover {
+    box-shadow: 0 0 3px black;
+}
+
+.nav-keranjang i {
+    font-size: 20px;
+    color: #333232;
+    position: absolute;
+    padding: 0px 10px;
+}
+
+.nav-barang {
+    margin-top: 55px;
+    margin-bottom: 50px;
+    background: #fff;
+}
+
+.nav-bungkus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0px 0px 10px;
+}
+
+.nav-barang .content {
+    background-color: #fff;
+    box-shadow: 0 0 2px black;
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+
+.nav-barang .content img {
+    width: 150px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background: #cccccc;
+}
+
+.nav-barang .content i {
+    color: gold;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.nav-barang .content h3 {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.nav-barang .content .kolom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-barang .content .kolom h1 {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.nav-barang .content .kolom i {
+    font-size: 20px;
+    color: black;
+}
+/* Bagian Keranjang */
+
+/* Bagian Video */
+.nav-video {
+    background-color: #cccccc;
+    height: 100vh;
+    margin-top: 55px;
+    margin-bottom: 4px;
+}
+
+.nav-video .content {
+    background: #fff;
+    margin-bottom: 2px;
+    box-shadow: 0 0 6px black;
+}
+
+.nav-video .content video {
+    width: 375px;
+    height: auto;
+}
+
+.nav-video .content .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #cccccc;
+    margin-top: -4px;
+}
+
+.nav-video .content .icon i {
+    font-size: 15px;
+    padding: 4px 35px;
+}
+
+.nav-video .content button {
+    border: none;
+    background: #333232;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.nav-video .content p {
+    font-size: 17px;
+}
+
+
+
+/* Bagian Video */
