@@ -47,17 +47,13 @@ nav .header .img {
     gap: 16px;
 }
 
-nav .header .img a {
-    background: #cccccc;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    border-radius: 50px;
+nav .header .img i {
+    font-size: 20px;
+    padding: 2px 5px;
 }
 
-nav .header .img img {
-    width: 18px;
-    margin: 6px
+nav .header .img i:hover {
+    scale: 1.2;
 }
 
 nav .navbar {
@@ -185,11 +181,12 @@ section .comen img {
     margin-top: 140px;
 }
 
-.open .close {
+.open i {
+    font-size: 30px;
     position: absolute;
     top: 145px;
-    right: 10px;
-    width: 30px;
+    margin-left: 340px;
+    left: 0;
 }
 
 /* Bagian Teman */
@@ -199,7 +196,7 @@ section .comen img {
 /* Bagian Pesan */
 
 /* Bagian Keranjang */
-.nav-keranjang {
+.nav-keranjang{
     position: fixed;
     top: 0;
     width: 375px;
@@ -298,11 +295,52 @@ section .comen img {
 /* Bagian Keranjang */
 
 /* Bagian Video */
+.navbar-nav {
+    position: fixed;
+    top: 0;
+    width: 375px;
+    background-color: #fff;
+    box-shadow: 0 0 5px black;
+}
+
+.navbar-nav .content {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar-nav h1 {
+    color: rgb(31, 31, 241);
+    padding: 0px 95px 0px 0px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+.navbar-nav input {
+    border: none;
+    background: #cccccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar-nav input:hover {
+    box-shadow: 0 0 3px black;
+}
+
+.navbar-nav i {
+    font-size: 20px;
+    color: #333232;
+    position: absolute;
+    padding: 0px 10px;
+}
+
+
 .nav-video {
     background-color: #cccccc;
     height: 100vh;
     margin-top: 55px;
-    margin-bottom: 4px;
+    padding: 0px 0px 30px 0px;
 }
 
 .nav-video .content {
